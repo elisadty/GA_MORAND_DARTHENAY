@@ -71,7 +71,7 @@ class GASolver:
         selection_size = int(len(self._population) * self._selection_rate)  
         self._population = self._population[:selection_size]  
 
-        possible_cities = ct.default_road(city_dict)  # Liste complète des villes
+        possible_cities = ct.default_road(city_dict)  # list of all of the cities
 
 
         #CROSSOVER PHASE
